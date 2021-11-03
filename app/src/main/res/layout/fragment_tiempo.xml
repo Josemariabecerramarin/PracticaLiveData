@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TiempoFragment">
+
+    <ImageView
+        android:id="@+id/tiempos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/repeticion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="48sp"/>
+    <TextView
+        android:id="@+id/cambio1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DCBA14"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:text="Hace sol"
+        android:gravity="center"
+        android:textSize="48sp"/>
+    <TextView
+        android:id="@+id/cambio2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0C1670"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:text="Está nublado"
+        android:gravity="center"
+        android:textSize="48sp"/>
+    <TextView
+        android:id="@+id/cambio3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4CAF50"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:text="Sopla viento"
+        android:gravity="center"
+        android:textSize="48sp"/>
+    <TextView
+        android:id="@+id/cambio4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00BCD4"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:text="Llueve"
+        android:gravity="center"
+        android:textSize="48sp"/>
+
+</FrameLayout>
